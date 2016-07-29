@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AppCompatResource">
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="ifRoom"
+        android:title="share" />
+
+    <item
+        android:id="@+id/empty"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="options">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:showAsAction="ifRoom"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/action_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:showAsAction="ifRoom"
+                android:title="Help" />
+
+        </menu>
+
+    </item>
+
+</menu>
